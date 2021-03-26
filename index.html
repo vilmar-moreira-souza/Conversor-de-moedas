@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>conversor de moedas</title>
+  </head>
+  <body>
+    <h1>conversor de moedas</h1>
+
+    <h4 class="subTitle">selecione a conversão e digite o valor:</h4>
+    <main class="container">
+      <select class="result" data-js="selecao" id="selected">
+        <option value="USD" selected>USD (Dólar Comercial)</option>
+        <option value="BRL">BRL (Real)</option>
+        <option value="EUR">EUR (Euro)</option>
+        <option value="ARS">ARS (Peso Argentino)</option>
+        <option value="BTC">BTC (Bitcoin)</option>
+        <option value="USDT">USDT (Dólar Turismo)</option>
+        <option value="CNY">CNY (Yuan Chinês)</option>
+      </select>
+      <h2>/</h2>
+
+      <select class="result" data-js="selecao" id="selected1">
+        <option value="BRL" selected>BRL (Real)</option>
+        <option value="USD">USD (Dólar Comercial)</option>
+        <option value="EUR">EUR (Euro)</option>
+        <option value="ARS">ARS (Peso Argentino)</option>
+        <option value="BTC">BTC (Bitcoin)</option>
+        <option value="USDT">USDT (Dólar Turismo)</option>
+        <option value="CNY">CNY (Yuan Chinês)</option>
+      </select>
+
+      <input class="result" data-js="entrada" type="number" min="0" value="" />
+      <button id="calcular">calcular</button>
+      <h5 class="result" id="resultado">resultado</h5>
+    </main>
+
+    <script src="./javascript/app.js"></script>
+  </body>
+</html>
