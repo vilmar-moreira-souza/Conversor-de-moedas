@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 body {
   background-color: rgba(0, 0, 0, 0.2);
@@ -43,7 +43,7 @@ button {
   cursor: pointer;
   padding: 1px;
   background-color: rgb(52, 52, 150);
-  color:white;
+  color: white;
 }
 
 #calcular:hover {
@@ -53,53 +53,48 @@ button {
 
 /* mobile large*/
 @media screen and (max-width: 960px) {
-	.subTitle{
-	text-align:center;
-	}
-	div main{
-		display:flex;
-		justify-content:center;	
-		background:rgb(250,250,250);
-		border-radius:3%;
-		
-	}
-	
-	div main h2{display:none;}
-	.container {
-		justify-content:center;	
-		display:block;
-		width:33vw;		
-		margin-left:35vw;
-		padding:5px;
-		
-	}
-	.result{
-		display:block;
-		margin:5px;
-		padding:0;
-		width:30vw;
-		
-	}
-	.container button {
-		margin:5px;
-		padding:5px;
-		border:none;
-	}
-	
-	
+  .subTitle {
+    text-align: center;
+  }
+  div main {
+    display: flex;
+    justify-content: center;
+    background: rgb(250, 250, 250);
+    border-radius: 3%;
+  }
+
+  div main h2 {
+    display: none;
+  }
+  .container {
+    justify-content: center;
+    display: block;
+    width: 33vw;
+    margin-left: 35vw;
+    padding: 5px;
+  }
+  .result {
+    display: block;
+    margin: 5px;
+    padding: 0;
+    width: 30vw;
+  }
+  .container button {
+    margin: 5px;
+    padding: 5px;
+    border: none;
+  }
 }
 /* mobile*/
 @media screen and (max-width: 540px) {
-	.container {		
-		width:60vw;		
-		margin-left:20vw;		
-		
-	}
-	.result{
-margin:8px;		
-		width:50vw;
-		padding:10px;
-		border:2px solid black;
-		
-	}
+  .container {
+    width: 60vw;
+    margin-left: 20vw;
+  }
+  .result {
+    margin: 8px;
+    width: 50vw;
+    padding: 10px;
+    border: 2px solid black;
+  }
 }
