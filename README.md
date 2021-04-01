@@ -1,6 +1,6 @@
 # conversor de moedas
 
-<a href="https://docs.awesomeapi.com.br/api-de-moedas" target="blank">visualizar</a>
+<a href="https://vilmar-moreira-souza.github.io/Conversor-de-moedas/" target="blank">visualizar</a>
 
 <h2>desktop</h2>
 <img src="./imagens/Captura0.png" width="" alt="print da tela">

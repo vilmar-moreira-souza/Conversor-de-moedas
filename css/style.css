@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 body {
   background-color: rgba(0, 0, 0, 0.2);
@@ -11,16 +11,20 @@ h1 {
   text-align: center;
   margin: 5% 0;
 }
+
 .container {
+  justify-content: center;
+  background: rgb(250, 250, 250);
   display: flex;
-  margin-left: 5%;
+  margin: 2% 6%;
+  padding: 18px;
+  border-radius: 2%;
 }
 
 .subTitle {
   color: rgb(52, 52, 248);
-  text-align: start;
+  text-align: center;
   font-size: 1.2rem;
-  margin-left: 5%;
   padding: 5px;
 }
 
@@ -36,8 +40,10 @@ h1 {
 
 .minFont {
   font-size: 0.8rem;
-  border: solid 2px rgb(225, 50, 50);
+  background-color: red;
+  border: none;
   border-radius: 5%;
+  max-height: 30px;
 }
 button {
   cursor: pointer;
